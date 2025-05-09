@@ -28,5 +28,5 @@ jobs:
       - name: Download
         run: python download.py
         env:
-          LINKS: ${{ vars.links }}
+          LINKS: ${{ vars.LINKS }}
           LINKS01: ${{ vars.links01 }}
