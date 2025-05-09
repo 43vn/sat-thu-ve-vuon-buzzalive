@@ -23,6 +23,3 @@ jobs:
         env:
           LINKS: ${{ vars.links }}
           LINKS01: ${{ vars.links01 }}
-          # Thêm các biến LINKS0X cần thiết ở đây
-      - name: Keep workflow run
-        uses: gautamkrishnar/keepalive-workflow@v1
